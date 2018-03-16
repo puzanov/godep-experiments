@@ -8,6 +8,12 @@
   revision = "54b4ae679a63f6d6fd5c0009b2471e637eabf784"
 
 [[projects]]
+  name = "github.com/op/go-logging"
+  packages = ["."]
+  revision = "b2cb9fa56473e98db8caba80237377e83fe44db5"
+  version = "v1"
+
+[[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = [
@@ -20,6 +26,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d963839f4832470a3b5d17555f6834d454173417e672398b77cbb80c66d758e5"
+  inputs-digest = "3c9a34d66c1054362bb6369a16d99ecac888b350e1dd22bcc3668ec189505784"
   solver-name = "gps-cdcl"
   solver-version = 1
